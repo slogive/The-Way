@@ -196,6 +196,7 @@ section.main {
         padding: 70px 10px;
         text-align: center;
         color: white;
+        font-size: 18px;
 
         button {
             background: transparent;
@@ -215,6 +216,18 @@ section.main {
     div.item[role='4'] {
         background-color: #3884bf;
     }
+    div.item[role='5'] {
+        background-color: #233d4d;
+    }
+    div.item[role='6'] {
+        background-color: #fe7f2d;
+    }
+    div.item[role='7'] {
+        background-color: #00ffc5;
+    }
+    div.item[role='8'] {
+        background-color: #fcca46;
+    }
 }
 
 button {
@@ -227,8 +240,8 @@ button {
 
 footer {
     display: grid;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.35);
+    padding: 15px;
+    background-color: #fcfcfc;
 
     span {
         text-align: center;
